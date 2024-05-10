@@ -1,0 +1,6 @@
+services:
+  some-redis:
+    image: redis:${REDIS_VERSION}
+    container_name: ${REDIS_CONTAINER_NAME}
+    ports:
+      - 6379:6379
